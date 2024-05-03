@@ -1,0 +1,90 @@
+header {
+   background-color: #9bdedb;
+   padding: 20px 0;
+}
+
+.caja{
+   width: 940px;
+   position: relative;
+   margin: 0 auto;
+}
+
+nav{
+   position: absolute;
+   top:0px;
+   right: 0;
+}
+
+nav li{
+
+   background-color: #9bdedb;
+   display: inline;
+   margin: 0 0 0 15px;
+}
+
+nav a{
+   text-transform: uppercase;
+   color: #000000e9;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+
+.productos{
+   
+   text-decoration: none;
+   
+   width: 940px;
+    margin: 0 200px 0 200px ;
+  padding: 50px;
+   
+}
+
+
+.productos li{
+   
+   
+   display: relative;
+   text-align: center;
+   width: 50%;
+   height: 50%;
+   vertical-align: top;
+   margin: 0 0px 25px 200px ;
+   padding: 70px 50px;
+   
+   box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 10px;
+
+}
+.imagenes{
+   background-image: url(' imagenes/ .jpeg');
+   width: 50%;
+   height: 50;
+}
+.imagenes2{
+   background-image:url(' imagenes/WhatsApp Image 2024-04-26 at 18.00.12.jpeg') ;
+}
+.imagenes3{
+   background-image: url('imagenes/yacht-sailing-open-sea-sunset_641010-15037.avif');
+}
+
+.productos h2{
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.producto-descripcion{
+   font-size: 18px;
+}
+
+.producto-precio{
+   font-size: 20px;
+   font-weight: bold;
+   margin-top:10px;
+}
+footer{
+   background-color: #9bdedb;
+   text-align: center;
+   padding: 40px;
+}
